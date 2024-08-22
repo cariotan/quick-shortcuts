@@ -2,7 +2,7 @@
 function initSelect(id) {
 	let $propertyTypeSelect = $('#' + id);
 	let $select = $propertyTypeSelect.find('input');
-	let $ul = $propertyTypeSelect.find('ul');
+	let $ul = $propertyTypeSelect.find('ul').css("z-index", "9999");
 
 	$select.on('focus', function () {
 		$ul.show();
