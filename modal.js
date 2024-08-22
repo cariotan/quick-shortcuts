@@ -5,8 +5,8 @@ function initModal(id) {
 	let $modal = $('<div class="fixed inset-0 flex justify-center items-center" style="display: none; z-index: 10000">');
 	let $backdrop = $('<div class="fixed inset-0 bg-black/80" style="opacity: 0"></div>');
 
-	$errorModal.wrap($modal);
-	$modal = $errorModal.css({ opacity: 0 }).removeClass('hidden').parent();
+	$errorModal.wrap($modal).css({ opacity: 0 }).removeClass('hidden');
+	$modal = $errorModal.parent();
 	$modal.prepend($backdrop);
 
 	$backdrop.on('click', closeModal);
