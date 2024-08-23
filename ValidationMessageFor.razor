@@ -1,0 +1,24 @@
+﻿@if(!string.IsNullOrEmpty(value))
+{
+	<div class="text-red-600 text-sm">@value</div>
+}
+
+@code
+{
+	[Parameter]
+	public string? For { get; set; }
+
+	[CascadingParameter]
+	public ModelState? ModelState { get; set; }
+
+	private string? value;
+
+	protected override void OnParametersSet()
+	{
+		if(ModelState != null)
+		{
+			value = ModelState[For];
+		}
+	}
+}
+
