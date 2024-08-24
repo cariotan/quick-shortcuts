@@ -4,4 +4,5 @@ Install-Package Microsoft.EntityFrameworkCore.Sqlite -Version 6.0.33
 Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.33
 hjhhjkhkj
 
+For client.
 Install-Package Microsoft.AspNetCore.Components.WebAssembly.Authentication -Version 6.0.33
