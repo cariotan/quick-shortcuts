@@ -5,7 +5,7 @@ namespace BlazorApp1.Server
 {
 	public class IdentityContext : IdentityDbContext
 	{
-		private static string DbPath = "C:\\Databases\\IdentityContext.db";
+		private static string DbPath = "C:\\Database\\IdentityContext.db";
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
