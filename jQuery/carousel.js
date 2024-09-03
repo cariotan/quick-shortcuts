@@ -11,8 +11,10 @@
 	return this;
 }
 
-// To translate, modify pageNumber and call translateContainer;
-// Pass id, swipesPerView
+// To translate, modify pageNumber and call translateContainer.
+
+// Pass id, swipesPerView to properties object when invoking initCarousel.
+
 /* 
 Events available to call from properties:
 	click
