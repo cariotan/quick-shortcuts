@@ -4,7 +4,7 @@ Install-Package Microsoft.EntityFrameworkCore.Sqlite -Version 6.0.33
 Install-Package Microsoft.EntityFrameworkCore.Design -Version 6.0.33
 hjhhjkhkj
 
-Install-Package Microsoft.EntityFrameworkCore -Version
+Install-Package Microsoft.EntityFrameworkCore
 Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore
 Install-Package Microsoft.EntityFrameworkCore.Sqlite
 Install-Package Microsoft.EntityFrameworkCore.Design
