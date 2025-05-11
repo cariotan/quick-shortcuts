@@ -10,6 +10,6 @@ npm install tailwindcss @tailwindcss/cli
 
 <script>
   htmx.config.selfRequestsOnly = false
-<script>
+</script>
 ```
 
